@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
 </head>
 <body class="bg-zinc-950">
     <header>
@@ -21,7 +22,6 @@
                     <i class="fa-solid fa-bars"></i>
                 </span>
                 <ul class="hidden md:flex space-x-8 md:items-center absolute md:relative top-16 right-0 md:top-auto md:right-auto w-full md:w-auto bg-slate-700 md:bg-transparent" id="menu">
-                    
                     <li><a href="#home" class="block px-4 py-2 font-bold text-blue-400 hover:text-green-400">Home</a></li>
                     <li><a href="#about" class="block px-4 py-2 font-bold text-blue-400 hover:text-green-400">About</a></li>
                     <li><a href="#services" class="block px-4 py-2 font-bold text-blue-400 hover:text-green-400">Services</a></li>
@@ -31,6 +31,7 @@
         </nav>
     </header>
 
+     <!-- Home Section -->
 
     <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('image/hashtec Banner.png'); background-size: cover; background-position: center;">
         <div class="container mx-auto flex flex-col items-center justify-center h-full text-center text-white px-6">
@@ -39,8 +40,9 @@
             <a href="#" class="bg-green-400 hover:bg-green-500 text-white py-3 px-6 rounded-full text-lg md:text-xl">Get Started</a>
         </div>
     </section>
-    
-    
+
+     <!-- About Section -->
+
     <section id="about" class="bg-white py-20">
         <div class="container mx-auto px-6 md:px-12">
             <div class="text-center mb-12">
@@ -64,6 +66,8 @@
             </div>
         </div>
     </section>
+
+     <!-- Service Section -->
 
     <section id="services" class="bg-teal-400 py-20">
         <div class="container mx-auto px-6 md:px-12">
@@ -131,6 +135,8 @@
         </div>
     </section>
 
+     <!-- Contact Section -->
+
     <section id="contact" class="bg-slate-300 py-20">
         <div class="container mx-auto px-6 md:px-12">
             <div class="text-center">
@@ -159,6 +165,8 @@
         </div>
     </section>
 
+     <!-- Footer Section -->
+
     <footer class="bg-gray-800 text-white py-8">
         <div class="container mx-auto px-6 md:px-12">
             <div class="flex flex-col md:flex-row justify-between">
@@ -186,6 +194,8 @@
         </div>
     </footer>
 
+
+    
     <script>
         document.getElementById('menu-toggle').addEventListener('click', function() {
             var menu = document.getElementById('menu');
